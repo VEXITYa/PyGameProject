@@ -7,7 +7,7 @@ from blocks import *
 win_width = 1000
 win_height = 700
 display = (win_width, win_height)
-background_color = "#333333"
+background_color = "#57574d"
 
 dir_files = os.path.dirname(__file__)
 
@@ -37,10 +37,10 @@ def camera_configure(camera, target_rect):
     return Rect(l, t, w, h) 
 
 
-def loadlevel():
+def loadlevel(namefile):
     global playerX, playerY
 
-    levelfile = open('%s/data/levels/level1.txt' % dir_files)
+    levelfile = open(('%s/data/levels/' + namefile) % dir_files)
     line = " "
     while line[0] != "/":
         line = levelfile.readline()
@@ -60,7 +60,7 @@ def loadlevel():
 
 
 def main():
-    loadlevel()
+    loadlevel('level1.txt')
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode(display)
@@ -83,14 +83,6 @@ def main():
                 pf = Block(x, y)
                 entities.add(pf)
                 platforms.append(pf)
-            if col == "p":
-                bd = Plosko(x, y)
-                entities.add(bd)
-                platforms.append(bd)
-            if col == "Y":
-                pf = Ploskoship(x, y)
-                entities.add(pf)
-                platforms.append(pf)
             if col == "s":
                 bd = Ship(x, y)
                 entities.add(bd)
@@ -104,7 +96,15 @@ def main():
                 entities.add(bd)
                 platforms.append(bd)
             if col == "v":
-                bd = Shipverx(x, y)
+                bd = Shipv(x, y)
+                entities.add(bd)
+                platforms.append(bd)
+            if col == ">":
+                bd = Shipvp(x, y)
+                entities.add(bd)
+                platforms.append(bd)
+            if col == "<":
+                bd = Shipvl(x, y)
                 entities.add(bd)
                 platforms.append(bd)
    
@@ -112,10 +112,10 @@ def main():
         y += platform_height
         x = 0
     
-    total_level_width = len(level[0])* platform_width
-    total_level_height = len(level)* platform_height
+    total_level_width = len(level[0]) * platform_width
+    total_level_height = len(level) * platform_height
     pygame.mixer.music.load("data/music/Music.mp3")
-    pygame.mixer.music.set_volume(0.4)
+    pygame.mixer.music.set_volume(0.1)
     pygame.mixer.music.play(-1)
     camera = Camera(camera_configure, total_level_width, total_level_height)
 

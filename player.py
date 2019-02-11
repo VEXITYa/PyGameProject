@@ -136,7 +136,8 @@ class Player(sprite.Sprite):
     def collide(self, xvel, yvel, platforms):
         for p in platforms:
             if sprite.collide_mask(self, p):  # если есть пересечение платформы с игроком
-                if isinstance(p, blocks.Ship) or isinstance(p, blocks.Shipverx) or isinstance(p, blocks.Ploskoship):
+                if isinstance(p, blocks.Ship) or isinstance(p, blocks.Shipv) \
+                        or isinstance(p, blocks.Shipvp) or isinstance(p, blocks.Shipvl):
                     self.die()  # умираем
                 else:
                     if xvel > 0:

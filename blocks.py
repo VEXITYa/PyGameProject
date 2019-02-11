@@ -7,7 +7,7 @@ import pyganim
 
 platform_width = 32
 platform_height = 32
-platform_color = "#000000"
+platform_color = "#ffffff"
 dir_icon = os.path.dirname(__file__)  # Полный путь к каталогу с файлами
             
  
@@ -40,37 +40,44 @@ class Kirpich(sprite.Sprite):
         self.image.set_colorkey(Color(platform_color))
         self.rect = Rect(x, y, platform_width, platform_height)
 
-
-class Plosko(sprite.Sprite):
+class Ship(sprite.Sprite):
     def __init__(self, x, y):
         sprite.Sprite.__init__(self)
         self.image = Surface((platform_width, platform_height))
         self.image.fill(Color(platform_color))
-        self.image = image.load("%s/data/blocks/plosko.png" % dir_icon)
-        self.image.set_colorkey(Color(platform_color))
-        self.rect = Rect(x, y, platform_width, platform_height)
-
-
-class Ploskoship(sprite.Sprite):
-    def __init__(self, x, y):
-        sprite.Sprite.__init__(self)
-        self.image = Surface((platform_width, platform_height))
-        self.image.fill(Color(platform_color))
-        self.image = image.load("%s/data/blocks/plosko_ship.png" % dir_icon)
-        self.image.set_colorkey(Color(platform_color))
-        self.rect = Rect(x, y, platform_width, platform_height)
-
-
-class Ship(Block):
-    def __init__(self, x, y):
-        Block.__init__(self, x, y)
         self.image = image.load("%s/data/blocks/ship.png" % dir_icon)
+        self.image.set_colorkey(Color(platform_color))
+        self.rect = Rect(x, y, platform_width, platform_height)
 
 
-class Shipverx(Block):
+class Shipvl(sprite.Sprite):
     def __init__(self, x, y):
-        Block.__init__(self, x, y)
+        sprite.Sprite.__init__(self)
+        self.image = Surface((platform_width, platform_height))
+        self.image.fill(Color(platform_color))
+        self.image = image.load("%s/data/blocks/shipvl.png" % dir_icon)
+        self.image.set_colorkey(Color(platform_color))
+        self.rect = Rect(x, y, platform_width, platform_height)
+
+
+class Shipvp(sprite.Sprite):
+    def __init__(self, x, y):
+        sprite.Sprite.__init__(self)
+        self.image = Surface((platform_width, platform_height))
+        self.image.fill(Color(platform_color))
+        self.image = image.load("%s/data/blocks/shipvp.png" % dir_icon)
+        self.image.set_colorkey(Color(platform_color))
+        self.rect = Rect(x, y, platform_width, platform_height)
+
+
+class Shipv(sprite.Sprite):
+    def __init__(self, x, y):
+        sprite.Sprite.__init__(self)
+        self.image = Surface((platform_width, platform_height))
+        self.image.fill(Color(platform_color))
         self.image = image.load("%s/data/blocks/shipv.png" % dir_icon)
+        self.image.set_colorkey(Color(platform_color))
+        self.rect = Rect(x, y, platform_width, platform_height)
 
 
 class Finish(Block):
