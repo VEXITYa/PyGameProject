@@ -1,0 +1,45 @@
+[
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      k  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K                                                                                                                                                                                                      K  
+K          BBBBBBBBBB                                                                                                                                                                                  K  
+K                                                                                                                                                                                                      K  
+K      B               ssss sss                                                                                                                                                                        K 
+K                    BBBBBBBBBBB                                                                                                                                                                       K  
+K B                                                                                                                                                                                                    K  
+K                                                                                                                                                                                                      K  
+Ksssss B                                                                                                                                                                                               K  
+KBBBBB                                                                                                                                                                                                 K  
+Kvv        B                                                                                                                                                                                           K  
+K                                                                                                                                                                                                      K  
+K    K                                                                                                                                                                                                 K  
+K    K  B                                                                                                                                                                                              K  
+K    K                                                                                                                                                                                                 K  
+KB   K                                                                                                                                                                                                 K  
+K    K                                                       B                                                                                                                                         K  
+K    K                                                                                                                                                                                                 K  
+K    K                                                   B                                                                                                                                             K  
+K   BK                                                                                                                                                                                                 K  
+K    K                                               B           B sss        ss                                                                                                                       K  
+K    K                                                             BBBB B    BBBB                                   s                                                                                  K  
+K    K                                           B                                                                  BB                                                                                 K  
+KB   K                                                                                              B                      s                                             s       s  s  s               K  
+K    K                                       B                                                          B        B        BB           B                          B B   BBB B B BB BB BB               K 
+K    K                                                                                          B                                  B        B                B                                         K  
+KP   Kssssssssssssssssssssssssssssssssssss sssssssssssssssssssssssssssssssssssssssss  ssss s sssssssssssssss  sssssssssssssssss ssssssssssssssss      sss sssssssssssssssssssssssssssssssssss          K  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------K            
+]
+player 144 1250
+/
