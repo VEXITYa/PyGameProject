@@ -60,7 +60,7 @@ def loadlevel(namefile):
 
 
 def main():
-    loadlevel('level1.txt')
+    loadlevel('level2.txt')
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode(display)
@@ -71,7 +71,6 @@ def main():
     left = right = False  # по умолчанию - стоим
     up = False
     running = False
-     
     hero = Player(playerX, playerY)
     entities.add(hero)
            
@@ -120,7 +119,6 @@ def main():
     camera = Camera(camera_configure, total_level_width, total_level_height)
 
     while not hero.winner:
-        timer.tick(60)
         for e in pygame.event.get():
             if e.type == QUIT:
                 raise SystemExit
@@ -163,13 +161,13 @@ def main():
                 up = False
 
         screen.blit(bg, (0, 0))
-
         animatedEntities.update()
         camera.update(hero)
         hero.update(left, right, up, running, platforms)
         for e in entities:
             screen.blit(e.image, camera.apply(e))
         pygame.display.update()
+        timer.tick(60)
 
 
 level = []

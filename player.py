@@ -149,7 +149,7 @@ class Player(sprite.Sprite):
                     if yvel > 0:
                         self.rect.bottom = p.rect.top
                         self.onGround = True
-                        self.yvel = 0                  # иэнергия падения пропадает
+                        self.yvel = 0                  # энергия падения пропадает
 
                     if yvel < 0:
                         self.rect.top = p.rect.bottom
@@ -160,5 +160,5 @@ class Player(sprite.Sprite):
         self.rect.y = goY
         
     def die(self):
-        time.wait(500)
+        time.wait(1000)
         self.teleporting(self.startX, self.startY)  # перемещаемся в начальные координаты

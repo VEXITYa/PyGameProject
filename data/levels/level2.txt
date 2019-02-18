@@ -1,0 +1,41 @@
+[
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvKvvvvvK                                                                                  
+K                                                   K     K                             <K>                                                          
+K                                                   K                                   <K>                                                                   
+K                                                   K     K                             <K>                                                                                                                                                                                                    
+K                                                   K    K                              <K>                                                                                      
+K                                                   K   <K                              <K>                                                                                                                         
+K                                                        K                              <K>                                                                               
+K                                                   K    K                              <K>                                                                                                                                       
+K                              s <B     B     B     K    K                              <K>             K        
+K              Ks            B<K>                   K>   K                              <K>             K                                                                   
+K               Ks            <K>                   K    K                              <K>             K          
+K                Ks           <K>                   K    K           B        B         <K>             K                                                                  
+K  P        sss   Ks     sssss<K>                   K   <K                              <K>             K                                                                                                                               
+KBBBBBBBBBBBBBB sssBBBBBBBBBBBBK>   ssssssssssssssssK                                   <K>             K             
+              B BBBB               <----------------K>                                  <K>          K  K  K          
+                                   <-                           B                       <K>           K K K                                                                   
+                                BBB                                                     <K>            KKK        
+                                                         B                              <K>             K         
+                                                       s        ssssssssssssssssss       v                                                                      
+                            B                          B       <KKKKKKKKKKKKKKKKKKsssBBB   BBB                                                                                                                   
+                                                               <K                     ->   <-                                                             
+                                               B  B            <K                     ->   <-                                                             
+                                 B      B                      <K                     ->   <-                                                            
+                                                               <K                       BBB                                                             
+                                                               <K                                                                                      
+ sssssss ssssss sssssssssssssssssssssssssssssssssssssssssssssssK                                                                                                 
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK                  B                                                                        
+         <B                                                                                                  
+         <B                                                                                                                                                 
+         <B                                                                                                                                               
+BBBBBBBBBBB        B    B    B                                            B                B                                                                  
+                  B         B      B                                                               
+                            B      B      B                                                                                                                  
+ <B>                        B      B      B      B                s                               
+  v     B    B    B         B      B      B      B       B      B B                           B                                                            
+ssssssssBssssBssssBsssssssssBssssssBssssssBssssssBsssssssBsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss                                                         
+-------------------------------------------------------------------------------------------------------------------------------                                                         
+]
+player 144 200
+/
