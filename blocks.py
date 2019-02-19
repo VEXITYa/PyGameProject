@@ -1,9 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from pygame import *
 import os
-import pyganim
 
 platform_width = 32
 platform_height = 32
